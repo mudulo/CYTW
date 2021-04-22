@@ -1,6 +1,6 @@
 {
     "name": "Curb Your Timewasting",
-    "description": "Visit the search results page of YouTube or Twiiter, not the addictive feed",
+    "description": "Load the search results page of YouTube or Twiiter, not the addictive home page or feed",
     "version": "1.1",
     "manifest_version": 2,
     "icons": { 
