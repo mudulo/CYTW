@@ -2,7 +2,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
         
         var href = new URL(details.url)
-        alert(href);
+        //alert(href);
         //alert(details.url.hostname + details.url.pathname)
         if( (href.hostname == "www.youtube.com"  || href.hostname == "youtube.com") && href.pathname == "/" ){
             return {
