@@ -8,8 +8,8 @@ To avoid wasting time on Twitter and YouTube, this extension asks you why you ar
 
 ### Chrome:
 
-Download here: https://chrome.google.com/webstore/detail/hn-card/medlpimkoihjpkajkdlkjmphcdgldgkm
+Download here: https://chrome.google.com/webstore/detail/agmnonobjpehfogihndpjcdlfejmfdoj
 
 ### Firefox
 
-Download here: https://addons.mozilla.org/en-US/firefox/addon/hn-card
+Download here: coming soon
