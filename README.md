@@ -12,4 +12,4 @@ Download here: https://chrome.google.com/webstore/detail/agmnonobjpehfogihndpjcd
 
 ### Firefox
 
-Download here: coming soon
+Download here: https://addons.mozilla.org/en-US/firefox/addon/curb-your-time-wasting/
