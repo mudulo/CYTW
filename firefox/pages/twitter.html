@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stop! Curb Your Time-Wasting</title>
+    </head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+
+header {
+  color: rgba(255,255,255,0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6.25rem 0;
+  position: relative;
+  height: 100vh;
+}
+
+
+
+header * {
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0 0 2rem;
+}
+
+form {
+  position: relative;
+  width: 31.25rem;
+  max-width: 90%;
+}
+
+form input {
+  border: 0;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+form button {
+  background-color: #1DA1F2;
+  color: rgba(255,255,255,0.95);
+  position: absolute;
+  top: 0.125rem;
+  right: 0.125rem;
+  border: 0;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 0.875rem 2rem;
+}
+
+form button:hover {
+  background-color: #1DA1F2;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+    </style>
+    <body style="background-color: #1DA1F2;"> 
+        <header>
+            <h1>What brings you to Twitter?</h1>
+            <form id="form" method="GET" action="https://twitter.com/search">
+              <input
+                type="text"
+                id="search"
+                name="q"
+                required="required"
+                placeholder="Enter Handle or Search Query..."
+              />
+              <button type="submit">Continue</button>
+            </form>
+          </header>
+    </body>
+</html>
