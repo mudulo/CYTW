@@ -27,6 +27,7 @@ header {
 }
 
 
+
 header * {
   z-index: 1;
 }
@@ -50,7 +51,7 @@ form input {
 }
 
 form button {
-  background-color: #ff0000;
+  background-color: #FF4500;
   color: rgba(255,255,255,0.95);
   position: absolute;
   top: 0.125rem;
@@ -62,7 +63,7 @@ form button {
 }
 
 form button:hover {
-  background-color:  #ff0000;
+  background-color: #FF4500;
 }
 
 button {
@@ -78,16 +79,16 @@ input:focus, button:focus {
 }
 
     </style>
-    <body style="background-color: #ff0000;"> 
+    <body style="background-color: #FF4500;"> 
         <header>
-            <h1>What brings you to YouTube?</h1>
-            <form id="form" method="GET" action="https://www.youtube.com/results">
+            <h1>What brings you to Reddit?</h1>
+            <form id="form" method="GET" action="https://reddit.com/search/">
               <input
                 type="text"
                 id="search"
-                name="search_query"
+                name="q"
                 required="required"
-                placeholder="Enter Channel or Search Query..."
+                placeholder="Enter Subreddit or Search Query..."
               />
               <button type="submit">Continue</button>
             </form>

@@ -1,7 +1,7 @@
 {
-    "name": "Curb Your Timewasting",
-    "description": "Initially take me to the search results page of YouTube or Twiiter, not the addictive home page or feed",
-    "version": "1.1",
+    "name": "Curb Your Time Wasting",
+    "description": "Initially take me to the search results page of YouTube, Twiiter, Reddit not the addictive homepage or feed",
+    "version": "1.2",
     "manifest_version": 2,
     "icons": { 
         "16": "icons/stop-16.png",
@@ -18,10 +18,12 @@
         "webRequest",
         "*://*.youtube.com/*",
         "*://*.twitter.com/*",
+        "*://*.reddit.com/*",
         "webRequestBlocking"
     ],
     "web_accessible_resources": [
         "pages/twitter.html",
-        "pages/youtube.html"
+        "pages/youtube.html",
+        "pages/reddit.html"
      ]
 }

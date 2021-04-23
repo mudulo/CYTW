@@ -12,10 +12,14 @@ chrome.webRequest.onBeforeRequest.addListener(
             return {
                 redirectUrl : chrome.extension.getURL("pages/twitter.html")
             };
+        } else if( (href.hostname == "www.reddit.com"  || href.hostname == "reddit.com") && href.pathname == "/" ){
+            return {
+                redirectUrl : chrome.extension.getURL("pages/reddit.html")
+            };
         } else {
             return
         }
     },
-    {urls: ['*://*.youtube.com/*', '*://twitter.com/*'], types: ['main_frame']},
+    {urls: ['*://*.youtube.com/*', '*://twitter.com/*', '*://reddit.com/*'], types: ['main_frame']},
     ['blocking']
 );
